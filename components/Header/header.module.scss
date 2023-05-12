@@ -1,0 +1,16 @@
+.headerContainer {
+  position: absolute;
+  width: 100%;
+  z-index: 12;
+  padding: 16px 40px;
+  background: white;
+  border-bottom: 1px solid #cccccc;
+
+  .headerText {
+    font-size: 16px;
+    align-items: center;
+    font-weight: 600;
+    line-height: 24px;
+    color: #080808;
+  }
+}

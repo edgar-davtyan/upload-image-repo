@@ -1,0 +1,49 @@
+.button {
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 8px;
+  background: #c209c1;
+  color: rgb(255, 255, 255);
+  border: 2px solid transparent;
+
+  &:hover {
+    background-color: #740574;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+
+  .label {
+    font-weight: 600;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.buttonBordered {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #8f008a;
+
+  .label {
+    transition: color 0.3s ease-in-out 0s;
+    color: #c209c1;
+  }
+
+  &:hover {
+    background-color: white;
+    .label {
+      color: #740574;
+    }
+  }
+}
